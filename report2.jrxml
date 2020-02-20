@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="77fb7fb9-cf47-402d-9eb9-3809ee5c53e5">
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     EMPLEADOS."NOMBRE" AS EMPLEADOS_NOMBRE,
+     EMPLEADOS."APELLIDOS" AS EMPLEADOS_APELLIDOS,
+     EMPLEADOS."TELEFONO" AS EMPLEADOS_TELEFONO,
+     EMPLEADOS."CONTRASENA" AS EMPLEADOS_CONTRASENA,
+     EMPLEADOS."CORREO" AS EMPLEADOS_CORREO,
+     EMPLEADOS."NIFNIE" AS EMPLEADOS_NIFNIE,
+     EMPLEADOS."DIRECCION" AS EMPLEADOS_DIRECCION,
+     EMPLEADOS."IBAN" AS EMPLEADOS_IBAN,
+     EMPLEADOS."FECHA_NAC" AS EMPLEADOS_FECHA_NAC
+FROM
+     "INFORMES"."EMPLEADOS" EMPLEADOS]]>
+	</queryString>
+	<field name="EMPLEADOS_NOMBRE" class="java.lang.String"/>
+	<field name="EMPLEADOS_IBAN" class="java.lang.String"/>
+	<field name="EMPLEADOS_APELLIDOS" class="java.lang.String"/>
+	<field name="EMPLEADOS_NIFNIE" class="java.lang.String"/>
+	<field name="EMPLEADOS_FECHA_NAC" class="java.sql.Timestamp"/>
+	<field name="EMPLEADOS_TELEFONO" class="java.lang.String"/>
+	<field name="EMPLEADOS_CONTRASENA" class="java.lang.String"/>
+	<field name="EMPLEADOS_CORREO" class="java.lang.String"/>
+	<field name="EMPLEADOS_DIRECCION" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

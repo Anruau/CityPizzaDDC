@@ -1,0 +1,17 @@
+feb 07, 2020 6:34:11 PM TestAssertionsLogin setUpClass
+INFORMACIÓN: Log Generado
+feb 07, 2020 6:34:11 PM TestAssertionsLogin setUpClass
+INFORMACIÓN: Instancia de Login generada correctamente
+
+feb 07, 2020 6:34:11 PM TestAssertionsLogin testAssertNotNull
+INFORMACIÓN: AssertNotNull concluido correctamente
+
+feb 07, 2020 6:34:11 PM TestAssertionsLogin testAssertNotSame
+INFORMACIÓN: AssertNotSame concluido correctamente
+
+feb 07, 2020 6:34:11 PM TestAssertionsLogin testAssertFalse
+INFORMACIÓN: AssertFalse concluido correctamente
+
+feb 07, 2020 6:34:11 PM TestAssertionsLogin testAssertTrue
+INFORMACIÓN: AsserTrue concluido correctamente
+
